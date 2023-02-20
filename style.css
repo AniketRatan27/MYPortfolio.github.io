@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 1, 28);
+}
+section{
+    background-image: url("AniketPhoto.png");
+    background-size:cover;
+    background-position: center;
+    background-position-y:1cqh;
+    width:100%;
+    height:95vh;
+}
+.head{
+     text-decoration: none;
+     padding:10px 0px 0px 8rem;
+     color:rgb(255, 253, 253);
+     font-size: 25px;
+}
+.head::first-letter{
+    color: rgb(248, 5, 102);
+    font-size: 55px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    box-shadow: 2px 2px 12px rgb(255, 255, 255);
+}
+nav ul{
+    display: flex;
+    padding:10px 19px 24px 0px;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding:1rem;
+    margin: 21px 54px 0px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(255, 246, 246);
+    font-size: 24px;
+}
+nav ul li:hover{
+    background-color: rgb(255, 15, 87);
+    border-radius: 18px; 
+}
+.text1{
+    transform: translate(1rem,8rem);
+    position: absolute;
+}
+ .para1 {
+     font-size:37px;
+     color: white;
+     padding: 1rem;
+}
+.name{
+    font-size: 54px;
+    color: rgb(255, 6, 85);
+}
+.para2 {
+    font-size:25px;
+    color: white;
+    padding: 1rem;
+}
+.subpara{
+    color: rgb(233, 234, 236);
+}
+
+.about{
+ position: relative;
+}
+.container{
+    display: flex;
+    padding: 60px 0px;
+    
+}
+.colum-one{
+    flex-basis: 35%;
+}
+.colum-one img{
+    width:500px;
+   height:500px;
+   border-radius:15px;
+   margin-left: 30px;
+}
+.colum-two{
+    margin-left: 60px;
+   
+}
+.abouttext{
+    color: rgb(121, 117, 117);
+    font-size:67px;
+}
+.lorme{
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+}
+.title-tags{
+    display: flex;
+    margin-top: 26px; 
+    font-size: 25px;  
+    cursor: pointer;
+}
+.tab-links{
+  margin-right:40px;
+  position: relative;
+  color: rgb(108, 103, 103);
+}
+
+.tab-content ul li{
+    margin: 20px 0px;
+    list-style: none;
+    color: rgb(169, 160, 160);
+    
+}
+.tab-content ul li span{
+    color: #ff004f;
+}
+.tab-content{
+    display: none;
+}
+.tab-content.active-tab{
+    display: block; 
+}
+.bigbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+.box1{
+    color: rgb(26, 25, 25);
+    background-color: rgb(201, 193, 193);
+    height: 18vw;
+    width: 16vw;
+    border-radius:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.box2{
+    color: rgb(20, 20, 20);
+    background-color: rgb(201, 193, 193);
+    height: 18vw;
+    width: 16vw;
+    border-radius:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.box3{
+    color: rgb(10, 9, 9);
+    background-color: rgb(199, 197, 197);
+    height: 18vw;
+    width: 16vw;
+    border-radius:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.thiscontact{
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+}
+.mydetail{
+    color:rgb(219, 218, 218) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    height:40vh;
+    width:70%;
+    margin-top:50px;
+    box-shadow: 2px 2px 12px white;
+    border-radius: 12px;
+}
+.myresume p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    
+}
+.mycv{
+    display: flex;
+    justify-content: center;
+    margin-top:3rem;
+   
+    }
+.cv{
+   background-color: aliceblue;
+    color: black;
+    margin:0px 10rem 0px 0rem;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+ 
+.cv:hover{
+    background-color: rgb(75, 74, 74);
+}
+
+.maindetail{
+    background-color: rgb(153, 186, 248);
+    margin-top: 45px;
+}
+.maindetail .spn{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.contactdetail{
+    display: flex;  
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input{
+    margin-block-end:10px;
+    height:7vh;
+    width:20%;
+    border-radius: 12px;
+    border-top: 0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom: 3px solid black; 
+}
+textarea{
+    border-radius: 12px;
+    border-top: 0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom: 3px solid black;
+    width: 26%;
+}
+input:focus{
+    width:33%;
+    transition:0.3s ease-in-out;
+}
+.inpt:focus{
+   height:15vh;
+}
+
+.contacttwo{
+transform: translate(40% , 0%);
+}
+
+
+.contactone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactone a{
+    color: black;
+}
+ .fa-brands{
+   font-size:40px;
+   margin:12px;
+   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    nav ul li{
+        display: none;
+    }
+    
+    .name{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .para1{
+        font-size: 14px;
+        color: black;
+    }
+    .para2{
+        font-size:18px;
+        font-weight: 600;
+        color: black;
+    }
+    .text1{
+        transform: translate(40%,159%);
+    }
+    .container{
+        flex-direction: column;
+    }
+
+    .colum-one img{
+     width:300px;
+     height:300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .abouttext{
+        font-size:35px;
+        padding-top: 20px;
+    }
+    .lorme{
+        font-size:16px;
+    }
+    .tab-content{
+        display:none;
+        font-size:14px;
+    }
+    .active-tab{
+        display: block;
+    }
+    .title-tags{
+      font-size:18px;
+    }
+    
+    .bigbox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1{
+        height:40vh;
+         width:70%;
+         margin-block-end:20px;
+    }
+    .box2{
+        height:40vh;
+         width:70%;
+         margin-block-end:20px;
+    }
+    .box3{
+        height:40vh;
+         width:70%;
+         margin-block-end:20px;
+    }
+    .myresume p{
+        font-size: 14px;
+        overflow: hidden;
+    }
+
+    .mydetail{
+        height:50vh;
+        width:70%;
+    }
+    .mycv{
+     flex-direction: column;
+    align-items: center;
+    }
+    .cv{
+        font-size: 18px;
+        margin:10px;
+    }
+    .cont{
+        font-size: 18px;
+        width:75px;
+    }
+    input{
+        width:30%;
+    }
+    input:focus{
+        width: 50%;
+    }
+    textarea{
+        width:40%;
+    }
+}
